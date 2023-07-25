@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>YT DATE RANGE FILTER</title>
+    <link rel="stylesheet" href="./stylesheet.css" >
+    <script src="script.js"></script>
+</head>
+<body>
+<h3 class = "welcome">
+    Приветствую в конвертер даты в ссылку на YouTube Studio. Данный инструмент
+    поможет при помощи ввода диапазона создать ссылку,
+    при открытии которой у Вас автоматически покажутся все
+    Ваши видео из Творческой Студии YouTube за выбранный промежуток дат.<br>
+
+    После ввода данных откроется браузер, а ссылка останется у Вас в
+    буфере обмена - просто вставьте её в адресную строку браузера<br>
+
+    ВНИМАНИЕ! ДАТА ОКОНЧАНИЯ ДОЛЖНА БЫТЬ ПОСЛЕ ДАТЫ НАЧАЛА В ИНОМ
+    СЛУЧАЕ ВАМ ВЫДАСТ НОЛЬ ВИДЕО
+</h3>
+<div class="wrapper">
+    <div class = "inputs">
+        <h2>Дата начала</h2>
+        <input type="date" id="startDate">
+    </div>
+    <div class = "inputs">
+        <h2>Дата конца</h2>
+        <input type="date" id="endDate">
+    </div>
+</div>
+<button id="cum" type="button" onclick="getLink()">ПОЛУЧИТЬ ССЫЛКУ</button><br>
+<a id="result" href="" style="display: none">link</a>
+</body>
+</html>

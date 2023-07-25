@@ -1,0 +1,33 @@
+.wrapper {
+    display: flex;
+    flex-flow: wrap;
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.inputs {
+    font-family: "Roboto Slab SemiBold";
+    flex-wrap: wrap;
+    text-align: center;
+    width: 50%;
+}
+
+.welcome {
+    border: solid;
+    border-radius: 20px;
+    padding: 5px;
+    font-family: "Roboto Slab SemiBold";
+    margin: 0px 20% 0px 20%;
+}
+
+#cum {
+    margin-top: 3%;
+    width: 50%;
+    position: absolute;
+    margin-left: 25%;
+    height: 10%;
+    border-radius: 20em;
+    background-color: black;
+    color: aliceblue;
+}
